@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":separateMultipleMajorReleases",
+    "schedule:daily",
+    "github>crs/renovate-config:labels",
+    "github>crs/renovate-config:private",
+    "github>crs/renovate-config:security",
+    "github>crs/renovate-config:package-rules"
+  ],
+  "commitMessageSuffix": " in {{packageFile}}",
+  "dependencyDashboardAutoclose": true
+}
