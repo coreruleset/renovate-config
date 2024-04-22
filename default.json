@@ -5,7 +5,6 @@
     ":separateMultipleMajorReleases",
     "schedule:daily",
     "github>coreruleset/renovate-config:labels",
-    "github>coreruleset/renovate-config:private",
     "github>coreruleset/renovate-config:security",
     "github>coreruleset/renovate-config:package-rules"
   ],
