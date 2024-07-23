@@ -1,10 +1,11 @@
 {
   "packageRules": [
     {
+      "groupName": "github-actions",
       "matchManagers": [
         "github-actions"
       ],
-      "groupName": "github-actions"
+      "automerge": true
     },
     {
       "groupName": "all non-major dependencies",
