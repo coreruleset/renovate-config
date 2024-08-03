@@ -3,7 +3,7 @@
   "vulnerabilityAlerts": {
     "enabled": true,
     "assignees": [
-      "@life360/infosec"
+      "@coreruleset/core-developers"
     ],
     "labels": [
       "security"
