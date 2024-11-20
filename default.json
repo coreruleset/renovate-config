@@ -8,8 +8,7 @@
     "customManagers:githubActionsVersions",
     "github>coreruleset/renovate-config:labels",
     "github>coreruleset/renovate-config:security",
-    "github>coreruleset/renovate-config:package-rules",
-    "github>coreruleset/renovate-config:custom-managers"
+    "github>coreruleset/renovate-config:package-rules"
   ],
   "commitMessageSuffix": " in {{packageFile}}",
   "dependencyDashboardAutoclose": true
