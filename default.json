@@ -11,5 +11,13 @@
     "github>coreruleset/renovate-config:package-rules"
   ],
   "commitMessageSuffix": " in {{packageFile}}",
-  "dependencyDashboardAutoclose": true
+  "dependencyDashboardAutoclose": true,
+  // Delay dependency updates to reduce the risk of infected
+  // packages becoming active in our build pipelines.
+  // https://docs.renovatebot.com/key-concepts/minimum-release-age/
+  // https://docs.renovatebot.com/configuration-options/#await-x-time-duration-before-automerging
+  "minimumReleaseAge": "7 days",
+  "minimumReleaseAgeBehaviour": "timestamp-required",
+  "internalChecksFilter": "strict",
+  "prCreation": "not-pending"
 }

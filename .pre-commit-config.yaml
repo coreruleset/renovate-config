@@ -21,7 +21,9 @@ repos:
 
       # check yaml and json
       - id: check-json
+        exclude: '^default\.json$'
       - id: pretty-format-json
+        exclude: '^default\.json$'
         args:
           - "--autofix"
           - "--no-sort-keys"
