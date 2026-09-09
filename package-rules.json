@@ -2,8 +2,8 @@
   "packageRules": [
     {
       "groupName": "coreruleset org packages",
-      "matchSourceUrlPrefixes": [
-        "https://github.com/coreruleset/"
+      "matchSourceUrls": [
+        "https://github.com/coreruleset/**"
       ],
       "minimumReleaseAge": "0 seconds"
     },
