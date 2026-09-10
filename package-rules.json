@@ -1,6 +1,13 @@
 {
   "packageRules": [
     {
+      "groupName": "coreruleset org packages",
+      "matchSourceUrls": [
+        "https://github.com/coreruleset/**"
+      ],
+      "minimumReleaseAge": "0 seconds"
+    },
+    {
       "groupName": "github-actions",
       "matchManagers": [
         "github-actions"
