@@ -19,5 +19,8 @@
   "minimumReleaseAge": "7 days",
   "minimumReleaseAgeBehaviour": "timestamp-required",
   "internalChecksFilter": "strict",
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
   "prCreation": "not-pending"
 }
